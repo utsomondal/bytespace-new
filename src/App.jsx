@@ -4,6 +4,7 @@ import LogoStrip from "./components/LogoStrip";
 import CourseSection from "./components/CourseSection";
 import CategoryGrid from "./components/CategoryGrid";
 import GrowthSection from "./components/GrowthSection";
+import CreatorCTA from "./components/CreatorCTA";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <CourseSection />
         <CategoryGrid />
         <GrowthSection />
+        <CreatorCTA />
       </main>
     </>
   );
