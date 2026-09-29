@@ -11,12 +11,6 @@ export default function Footer() {
     <footer className="border-t border-neutral-100 bg-white pt-16">
       <div className="container-1440 px-5">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.5fr]">
-<<<<<<< Updated upstream
-
-          {/* left: logo + newsletter */}
-          <div>
-            <img src="/images/logo/footer_logo.svg" alt="ByteSpace" className="h-8 w-auto" />
-=======
           {/* left: logo + newsletter */}
           <div>
             <img
@@ -24,7 +18,6 @@ export default function Footer() {
               alt="ByteSpace"
               className="h-8 w-auto"
             />
->>>>>>> Stashed changes
             <p className="body-m mt-4 max-w-95 text-neutral-500">
               Stay Up to date with our latest features and releases by joining
               our newsletter.
@@ -53,13 +46,6 @@ export default function Footer() {
               <div key={heading}>
                 <ul className="space-y-4">
                   <li>
-<<<<<<< Updated upstream
-                    <a href="#" className="body-m text-neutral-700 hover:text-primary-700">{heading}</a>
-                  </li>
-                  {links.map((link) => (
-                    <li key={link}>
-                      <a href="#" className="body-m text-neutral-700 hover:text-primary-700">{link}</a>
-=======
                     <a
                       href="#"
                       className="body-m text-neutral-700 hover:text-primary-700"
@@ -75,7 +61,6 @@ export default function Footer() {
                       >
                         {link}
                       </a>
->>>>>>> Stashed changes
                     </li>
                   ))}
                 </ul>
@@ -86,13 +71,6 @@ export default function Footer() {
 
         {/* bottom bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-neutral-100 py-6 sm:flex-row">
-<<<<<<< Updated upstream
-          <p className="body-s text-neutral-500">© 2023 ByteSpace. All rights reserved.</p>
-          <div className="flex gap-6">
-            <a href="#" className="body-s text-neutral-500 hover:text-primary-700">Privacy Policy</a>
-            <a href="#" className="body-s text-neutral-500 hover:text-primary-700">Terms of Service</a>
-            <a href="#" className="body-s text-neutral-500 hover:text-primary-700">Cookies Settings</a>
-=======
           <p className="body-s text-neutral-500">
             © 2023 ByteSpace. All rights reserved.
           </p>
@@ -115,14 +93,9 @@ export default function Footer() {
             >
               Cookies Settings
             </a>
->>>>>>> Stashed changes
           </div>
         </div>
       </div>
     </footer>
   );
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
