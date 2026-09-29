@@ -4,7 +4,7 @@ A pixel-accurate, responsive implementation of the **ByteSpace landing page**, r
 
 The project focuses on translating a high-fidelity visual design into maintainable, reusable React components while preserving the original layout, typography, spacing, asset placement, and responsive behavior.
 
-**Live Demo:** [Add Vercel link here]
+**Live Demo:** [https://bytespace-new-theta.vercel.app/](https://bytespace-new-theta.vercel.app/)
 **Design Reference:** [ByteSpace Figma Design](https://www.figma.com/design/26TBgRjmpuxudcErJsHUfy/ByteSpace-New-Check-website)
 
 ---
