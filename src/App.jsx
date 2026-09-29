@@ -21,7 +21,11 @@ export default function App() {
         <CreatorCTA />
         <Testimonials />
       </main>
+<<<<<<< Updated upstream
       <Footer />
+=======
+      <Footer/>
+>>>>>>> Stashed changes
     </>
   );
 }
