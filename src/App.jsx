@@ -5,6 +5,7 @@ import CourseSection from "./components/CourseSection";
 import CategoryGrid from "./components/CategoryGrid";
 import GrowthSection from "./components/GrowthSection";
 import CreatorCTA from "./components/CreatorCTA";
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <CategoryGrid />
         <GrowthSection />
         <CreatorCTA />
+        <Testimonials />
       </main>
     </>
   );
