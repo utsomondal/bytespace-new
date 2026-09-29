@@ -1,9 +1,9 @@
 const shapes = [
   {
     src: "/images/cta/shape-lime-squiggle-lg.png",
-    w: 385,
-    h: 385,
-    top: -162,
+    w: 350,
+    h: 340,
+    top: -120,
     left: -118,
     rotate: 0,
   },
@@ -25,7 +25,7 @@ const shapes = [
   },
   {
     src: "/images/cta/shape-white-cylinder.png",
-    w: 370,
+    w: 300,
     h: 370,
     top: 6,
     left: 1226,
@@ -35,7 +35,7 @@ const shapes = [
     src: "/images/cta/shape-white-cone.png",
     w: 188,
     h: 188,
-    top: 225,
+    top: 213,
     left: -118,
     rotate: 0,
   },
@@ -49,8 +49,8 @@ const shapes = [
   },
   {
     src: "/images/cta/shape-lime-squiggle-sm.png",
-    w: 330,
-    h: 330,
+    w: 300,
+    h: 200,
     top: 189,
     left: 1110,
     rotate: 0,
