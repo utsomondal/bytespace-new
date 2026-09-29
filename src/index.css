@@ -39,6 +39,12 @@
   --color-secondary-950: #243300;
 }
 
+@utility container-1440 {
+  max-width: 1440px;
+  margin-inline: auto;
+  position: relative;
+}
+
 @utility bg-grid {
   background-image:
     linear-gradient(to right, rgb(255 255 255 / 0.12) 1px, transparent 1px),
