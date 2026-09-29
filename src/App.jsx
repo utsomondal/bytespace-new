@@ -6,6 +6,7 @@ import CategoryGrid from "./components/CategoryGrid";
 import GrowthSection from "./components/GrowthSection";
 import CreatorCTA from "./components/CreatorCTA";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <CreatorCTA />
         <Testimonials />
       </main>
+      <Footer />
     </>
   );
 }
